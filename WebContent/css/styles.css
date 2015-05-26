@@ -9,6 +9,7 @@
    RESET    
    Resetear todos los estilos para cualquier navegador
 */
+
 @import url("reset.css");
 
 
@@ -72,7 +73,15 @@ p{
 	line-height:20px;
 }
 
+fieldset{
+	border:1px solid grey;	
+	padding: 20px 30px;
+	margin-bottom: 20px;
+}
 
+legend{
+	font-weight: bold;
+}
 
 
 /* 

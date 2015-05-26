@@ -22,10 +22,11 @@
 			<li><a href="ejemplos/reales/cartelera_detalle.jsp">Detalle Cartelera</a></li>
 		</ul>
 	</li> 
-	<li>
+	<li> 
 		<h3>Formularios</h3>
 		<ul>
 			<li><a href="ejemplos/formularios/login.jsp">Login</a></li>			
+			<li><a href="ejemplos/formularios/datos_personales.jsp">Datos Personales</a></li>
 		</ul>
 	</li>  
 	<li>
