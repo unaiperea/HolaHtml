@@ -65,6 +65,9 @@
 	   <br>
 	   
 <script type="text/javascript" src="js/main.js"></script>
+<script>
+	init();
+</script>
 	 
 </div> <!-- home -->
 <jsp:include page="plantillas/foot.jsp"></jsp:include>

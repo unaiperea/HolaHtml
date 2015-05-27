@@ -23,6 +23,6 @@
   
 </head>
 
-<body onload="init();">
+<body>
 
 <div id="container">
