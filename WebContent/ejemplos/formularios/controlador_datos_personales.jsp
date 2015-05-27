@@ -12,6 +12,7 @@
 	String p3 = (String)request.getParameter("profesion");
 	String p4 = (String)request.getParameter("edad");
 	String p5 = (String)request.getParameter("rol");
+	String pCV = (String)request.getParameter("cv");
 	
 	//recoger parametro de Radio button, es un unico valor
 	String pRadio = (String)request.getParameter("sexo");
@@ -41,6 +42,10 @@
 	}else{
 		out.print("Eres un paleto!!!!");
 	}
+	
+	//mostrar cv
+	out.print( "<h2>Tu Curriculum Vitae</h2>" );
+	out.print( pCV );
 	
 		
 	

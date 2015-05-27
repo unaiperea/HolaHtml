@@ -83,10 +83,22 @@ legend{
 	font-weight: bold;
 }
 
+/*
+	validaciones formularios
+*/
+
+form input[type="text"]:required:valid{
+	border:5px solid #33A979;	
+}
+
+form input[type="text"]:focus:required:invalid{
+	border:5px solid #DB257C;	
+}
+
 
 /* 
 	ESTILOS REUTILIZABLES
-    Regla con selector por CLASS para usar en todas las páginas
+    Regla con selector por CLASS para usar en todas las paginas
 */
 
 
