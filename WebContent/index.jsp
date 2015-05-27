@@ -36,7 +36,7 @@
 			</tr>
 			<tr>
 				<td>Jon</td>
-				<td>Raúl</td>
+				<td>Ra&uacute;l</td>
 				<td>Jaione</td>
 				<td>David</td>
 			</tr>
