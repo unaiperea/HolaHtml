@@ -12,14 +12,18 @@
 				<label for="nombre">Nombre:</label><br>
 				<input type="text" id="nombre" name="nombre" value=""
 					   required pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑ]{2,256}"	 
-				       placeholder="Escribe tu nombre">
+				       placeholder="Escribe tu nombre"
+				       title="Por favor escribe tu nombre"				       
+				       >
 			</p>
 			
 			<p>
 				<label for="apellidos">Apellidos:</label><br>
 				<input type="text" id="apellidos" name="apellidos"
 					   required pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑ]{2,256} ([a-zA-ZáéíóúñÁÉÍÓÚÑ]{2,256}?)"	  
-				       value="" placeholder="Tus dos apellidos" >
+				       value="" placeholder="Tus dos apellidos"
+				       title="Por favor escribe tus dos apellidos" 
+				       >
 			</p>
 			
 			<p>
@@ -88,6 +92,40 @@
 			</select>
 						
 		</fieldset>
+		
+	<fieldset>
+	<legend>Gustos musicales</legend>
+			<select name="gustos_musicales" id="gustos_musicales" size="10" >
+				<optgroup label="Rock">
+					<option value="1">Guns and Roses</option>
+					<option value="2">Nirvana</option>
+					<option value="3">AC/DC</option>
+				</optgroup>
+				
+				<optgroup label="Pop">
+					<option value="4">Green Day</option>
+					<option value="5">Linkin Park</option>
+					<option value="6">Paramore</option>
+				</optgroup>
+				
+				<optgroup label="Clasica">
+					<option value="7">Johann Sebastian Bach</option>
+					<option value="8">Ludwig van Beethoven</option>
+					<option value="9">Wolfgang Amadeus Mozart</option>
+				</optgroup>
+
+			</select>
+			
+	</fieldset>
+	
+	<fieldset>
+	<legend>CV</legend>
+	
+		<textarea name="cv" cols="60" rows="10"  
+		          placeholder="Introduce tu cv en texto plano(minimo 50 caracteres)"></textarea>
+			         			
+	</fieldset>	
+		
 	
 	<br> 
 	<br>
