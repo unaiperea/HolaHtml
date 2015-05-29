@@ -24,6 +24,10 @@ body{
 	background: url('../img/back2.jpg');
 	font-family: arial;
 }
+
+figure{}
+figcaption{}
+
 a{
 	text-decoration:none;
 }
@@ -73,6 +77,10 @@ p{
 	line-height:20px;
 }
 
+mark{
+	background-color: yellow;
+}
+
 fieldset{
 	border:1px solid grey;	
 	padding: 20px 30px;
@@ -82,6 +90,27 @@ fieldset{
 legend{
 	font-weight: bold;
 }
+
+
+article{
+	border:1px solid #013729;
+	padding:20px;
+	margin-bottom: 25px;
+}
+article h1{
+	background-color:#DDD;
+	color:#C10D57;	
+	font-size: 25px;
+	padding: 5px 0;
+}
+
+footer{
+	border:1px solid #DDD;
+	padding: 10px 5px;
+	margin-top: 10px;
+}
+
+
 
 /*
 	validaciones formularios
@@ -121,7 +150,7 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 
 
 .btn_volver{
-	background-color:#DDDDDD;
+	background-color:#FFF;
 }
 
 .numero{
@@ -145,6 +174,10 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 	height:auto;
 }
 
+.cnt_article{
+	padding:20px;
+	border:1px solid #DDD;
+}
 
 /*
 	PAGINAS

@@ -1,10 +1,6 @@
 <nav> 
   
-  <div id="logo">
-  	<a href="" title="Volver a la home">
-  		<img src="img/dado.png" alt="dado de 6 caras icono de la App Web"/>
-  	</a>
-  </div>
+  
   	
   <ul>	
 	<li>
@@ -13,6 +9,17 @@
 			<li><a href="ejemplos/basicos/parrafos.jsp">Parrafos y enlaces internos</a></li>
 			<li>Block e inline</li>
 			<li>Listas</li>
+		</ul>
+	</li>
+	<li>
+		<h3>Nuevos Elementos HTML5</h3>
+		<ul>
+			<li><a href="ejemplos/html5/figure.jsp">Figure</a></li>
+			<li><a href="ejemplos/html5/hgroup.jsp">Hgroup</a></li>
+			<li><a href="ejemplos/html5/hgroup.jsp">Time</a></li>
+			<li><a href="ejemplos/html5/video.jsp">Video</a></li>
+			<li><a href="ejemplos/html5/proges_y_meter.jsp">Progress y Meter</a></li>
+			<li><a href="ejemplos/html5/datalist.jsp">DataList</a></li>
 		</ul>
 	</li>
 	<li>
