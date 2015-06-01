@@ -62,6 +62,8 @@
 			<li><a href="http://caniuse.com/" target="_blank">Can I use</a></li>
 			<li><a href="https://github.com/" target="_blank">GitHub</a></li>
 			<li><a href="http://librosweb.es/libro/pro_git/" target="_blank">Pro Git, el libro oficial de Git</a></li>
+			<li><a href="http://librosweb.es/libro/css/" target="_blank">CSS B&aacute;sico</a></li>
+			<li><a href="http://librosweb.es/libro/css_avanzado/" target="_blank">CSS Avzanzado</a></li>
 		</ul>
 	
 	</aside>   
