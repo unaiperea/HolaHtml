@@ -1,14 +1,12 @@
-<nav> 
-  
-  
-  	
+<nav id="menu"> 
+ 	
   <ul>	
 	<li>
 		<h3>B&aacute;sicos</h3>
 		<ul>
 			<li><a href="ejemplos/basicos/parrafos.jsp">Parrafos y enlaces internos</a></li>
-			<li>Block e inline</li>
-			<li>Listas</li>
+			<li><a href="#">Block e inline</a></li>
+			<li><a href="#">Listas</a></li>
 		</ul>
 	</li>
 	<li>
@@ -74,4 +72,4 @@
 		</ul>
 	</li>  
   </ul>
- </nav>
+</nav>
