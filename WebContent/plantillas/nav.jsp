@@ -1,8 +1,8 @@
-<nav id="menu"> 
+<nav class="clearfix"> 
  	
-  <ul>	
+  <ul class="menu">	
 	<li>
-		<h3>B&aacute;sicos</h3>
+		<h2>B&aacute;sicos</h2>
 		<ul>
 			<li><a href="ejemplos/basicos/parrafos.jsp">Parrafos y enlaces internos</a></li>
 			<li><a href="#">Block e inline</a></li>
@@ -10,7 +10,7 @@
 		</ul>
 	</li>
 	<li>
-		<h3>Nuevos Elementos HTML5</h3>
+		<h2>Nuevos Elementos HTML5</h2>
 		<ul>
 			<li><a href="ejemplos/html5/figure.jsp">Figure</a></li>
 			<li><a href="ejemplos/html5/hgroup.jsp">Hgroup</a></li>
@@ -22,10 +22,10 @@
 	</li>
 	
 	<li>
-		<h3>CSS3</h3>
+		<h2>CSS3</h2>
 		<ul>
 			<li>
-				<h4>Selectores</h4>
+				<h3>Selectores</h3>
 				<ul>
 					<li><a href="ejemplos/css/selectores/atributos.jsp">Atributos</a></li>
 					<li><a href="ejemplos/css/selectores/hijos.jsp">Hijos</a></li>
@@ -36,7 +36,7 @@
 				</ul>
 			</li>	
 			<li>
-				<h4>Poscionamiento</h4>
+				<h3>Poscionamiento</h3>
 				<ul>
 					<li><a href="ejemplos/css/posicionamiento/normal.jsp">Normal</a></li>
 					<li><a href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>
@@ -73,3 +73,8 @@
 	</li>  
   </ul>
 </nav>
+
+</header>
+
+<div id="content">
+

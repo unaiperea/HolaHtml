@@ -1,3 +1,6 @@
+
+</div> <!-- <div id="content"> -->
+
 <footer>
 	<span class="copy">&copy;Ipartek Servicios Informaticos</span>
 	

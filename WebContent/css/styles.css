@@ -13,6 +13,15 @@
 @import url("reset.css");
 
 
+/***************************** 
+      ClearFix
+*******************************/
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
 /* 
 
    ETIQUETAS 
@@ -112,6 +121,99 @@ footer{
 
 
 
+/************************
+          HEAD 
+*************************/
+
+
+#head{
+	position: fixed;
+	background-color: #FFF; 
+	width: 900px;
+	padding-top: 10px;
+}
+
+#head #logo, #head h1{
+	float:left;
+}
+
+#head h1{
+	color:#7B02F5;
+	font-size: 30px;
+}	
+
+#logo img{		
+	width: 50px;
+	height: 50px;
+}
+
+
+/************************
+      MENU PRINCIPAL 
+*************************/
+
+	header { 100%; }
+
+	nav * {
+		padding: 0px;
+		margin: 0px;
+	}
+	nav {
+		margin: 0px auto;
+		width: 100%;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	nav ul, nav ol {
+		list-style: none;
+	}
+	nav ul ul {
+		margin: 0px;
+	}
+	nav h2, nav h3 {
+		margin: 0px;
+	}
+	
+	.menu li a, .menu li h2, .menu li h3 {
+		background-color: black;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		padding: 10px 15px;
+		display: block;
+	}
+	
+	.menu li h2:hover, .menu li h3:hover, .menu li a:hover {
+		background-color: #434343;
+	}
+	.menu > li {
+		float: left;
+	}	
+	.menu li ul {
+		display: none;
+		position: absolute;
+		min-width: 175px;
+	}
+	
+	.menu li:hover > ul{
+		display: block;
+	}
+	
+	.menu li ul li{
+		position: relative;
+	}
+	.menu li ul li ul{
+		right: -175px;
+		top: 0px;
+	}
+
+/* contenedor */
+
+#content{
+	  padding-top: 120px;
+}
+
+
 /*
 	validaciones formularios
 */
@@ -180,28 +282,6 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 }
 
 
-/* MENU PRINCIPAL */
-
-#menu { width: 900px; margin:0 auto;}
-
-#menu ol, #menu ul , #menu li h3, #menu li h4 {  list-style: none; margin: 0; padding: 0; }
-
-#menu li a, #menu li h3, #menu li h4 {
-	display:block;
-	background-color: #000;
-	color: #FFF;
-	text-decoration: none;
-	padding: 10px 15px;
-}
-
-#menu li a:hover{
-	color:lime;
-	background-color: grey;
-}
-
-#menu ul li > h3 {
-	float:left; 
-}
 
 /*
 	PAGINAS
@@ -209,12 +289,8 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 
 */
 
-/* NAV */
 
-#logo img{
-	width: 35px;
-	height: 35px;
-}
+
 
 
 /* HOME */
