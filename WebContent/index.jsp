@@ -1,14 +1,14 @@
 <jsp:include page="plantillas/head.jsp"></jsp:include>
 <jsp:include page="plantillas/nav.jsp"></jsp:include>
 
-<div id="home">	 
+<div id="home" class="clearfix">	 
 	 
 	 <!-- Contenido principal de la pagina -->
 	 <section> 
 	 	 
 	   <h2>El afortunado en leer es:</h2>
 	   <label for="btn_ganador" class="numero" id="afortunado" >0</label>
-	   <input type="button" 
+	   <input type="button" class="btn"
 			  value="Obtener nuevo afortunad@" 
 			  id="btn_ganador" name="btn_ganador" 
 			  onclick="obtener_ganador();"/>
