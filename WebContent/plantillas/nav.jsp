@@ -46,6 +46,13 @@
 					<li><a href="ejemplos/css/posicionamiento/float.jsp">Elementos Flotantes</a></li>
 				</ul>
 			</li>
+			<li>
+				<h3>Tecnicas Avanzadas</h3>
+				<ul>
+					<li><a href="ejemplos/css/avanzado/sprite.jsp">Sprite Pacman</a></li>
+					<li><a href="ejemplos/css/avanzado/fontawesome.jsp">FontAwesome</a></li>					
+				</ul>
+			</li>	
 		</ul>
 	</li>
 	
