@@ -17,8 +17,12 @@
   
   <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
 
-	<!-- Font Awesome  -->		
+   <!-- Font Awesome  -->		
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.css">
+  
+  <!-- Custom IconMoon  -->
+  <link rel="stylesheet" type="text/css" href="fonts/iconmoon/style.css">
+
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
