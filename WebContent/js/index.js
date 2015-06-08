@@ -104,10 +104,11 @@ function obtener_ganador(){
 	//recorremos todas las celdas
 	for (i = 0; i < celdas.length; i++) { 
 		//cambiamos su estilo y ponemos color de fondo white
-		celdas[i].style.backgroundColor = 'white';
+		celdas[i].style.backgroundColor = '#FFF';
 	}
 	
-	celdas[num_aleatorio].style.backgroundColor = 'red';
+	celdas[num_aleatorio].style.backgroundColor = '#7c01f6';
+	celdas[num_aleatorio].style.color = '#FFF';
 	
 	
 }
