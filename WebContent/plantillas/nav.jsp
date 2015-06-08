@@ -72,10 +72,21 @@
 		</ul>
 	</li>  
 	<li>
-		<h3>Plugins</h3>
+		<h2>JavaScript</h2>		
 		<ul>
-			<li><a href="ejemplos/plugins/datatable.jsp">dataTables</a></li>
-			
+			<li>
+				<h3>B&aacute;sicos</h3>
+				<ul>
+					<li><a href="ejemplos/javascript/introduccion.jsp">introduccion</a></li>
+				</ul>
+			</li>		
+		
+			<li>
+				<h3>Plugins</h3>
+				<ul>
+					<li><a href="ejemplos/plugins/datatable.jsp">dataTables</a></li>
+				</ul>
+			</li>			
 		</ul>
 	</li>  
   </ul>
