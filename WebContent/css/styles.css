@@ -1,7 +1,7 @@
 /*   
 	version:  1.0
 	author:   Ander Uraga Real
-	date: 	  20150518
+	date: 	  20150610
 		
 */
 
@@ -26,6 +26,8 @@
 .clearfix {
 	*zoom: 1;
 }
+
+
 
 /* 
 
@@ -159,6 +161,7 @@ footer {
 *************************/
 header { 100%;
 	
+
 }
 
 nav * {
@@ -224,6 +227,7 @@ nav h2, nav h3 {
 /* contenedor */
 #content {
 	padding-top: 120px;
+
 }
 
 /*********************
@@ -312,6 +316,70 @@ nav h2, nav h3 {
 }
 
 
+nav * {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	margin: 0px auto;
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul, nav ol {
+	list-style: none;
+}
+
+nav ul ul {
+	margin: 0px;
+}
+
+nav h2, nav h3 {
+	margin: 0px;
+}
+
+.menu li a, .menu li h2, .menu li h3 {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	display: block;
+}
+
+.menu li h2:hover, .menu li h3:hover, .menu li a:hover {
+	background-color: #434343;
+}
+
+.menu>li {
+	float: left;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 175px;
+}
+
+.menu li:hover>ul {
+	display: block;
+}
+
+.menu li ul li {
+	position: relative;
+}
+
+.menu li ul li ul {
+	right: -175px;
+	top: 0px;
+}
+
+/* contenedor */
+#content {
+	padding-top: 120px;
+}
 
 /*
 	validaciones formularios
