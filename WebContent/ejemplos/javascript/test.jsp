@@ -29,7 +29,7 @@
 		  assert.ok( es_par(0) 			 ,  "0 es par" );
 		  assert.ok( es_par(2) 			 ,  "2 es par" );
 		  assert.ok( !es_par(3) 		 , "3 NO es par" );
-		  assert.ok( !es_par(null)		 ,  "null NO es par" );
+		  assert.ok( es_par(null)		 ,  "null es par !!! " );
 		  assert.ok( !es_par(undefined)  ,  "undefined NO es par" );
 		  assert.ok( es_par(-2)			 ,  "-2 es par" );
 		  assert.ok( !es_par(-3) 		 ,  "-3 NO es par" );

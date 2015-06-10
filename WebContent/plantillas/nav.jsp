@@ -86,7 +86,13 @@
 				<ul>
 					<li><a href="ejemplos/plugins/datatable.jsp">dataTables</a></li>
 				</ul>
-			</li>			
+			</li>
+			<li>
+				<h3>Test</h3>
+				<ul>
+					<li><a href="ejemplos/javascript/test.jsp">Qunit</a></li>
+				</ul>
+			</li>				
 		</ul>
 	</li>  
   </ul>

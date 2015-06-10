@@ -71,9 +71,11 @@ function entradas (dia,edad) {
  * @return true si es par, false en caso contrario
  */
 function es_par(numero){	
-	resul = false;	
+	resul = false;
 	
-	//TODO falta de implementar
+	if (numero%2==0) {
+		resul=true;
+	};
 	
 	return resul;
 }
