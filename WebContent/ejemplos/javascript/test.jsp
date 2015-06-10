@@ -14,6 +14,30 @@
   <script src="../../js/utilidades.js"></script>
   
   <script>
+  
+  	QUnit.test( "Funciones predefinidas", function( assert ) {
+  		
+  		assert.ok( escape('Hola Mundo') == 'Hola%20Mundo' , "'Hola Mundo' escapado" );
+  		assert.ok( escape('Hóla Mundo') == 'H%F3la%20Mundo' , "'Hóla Mundo' escapado" );
+  		
+  		assert.ok( (10 + "1") == "101"          , "Sin parseInt 10 + \"1\" = 101" );
+  		assert.ok( (10 + parseInt("1") ) == 11  , "Con parseInt 10 + \"1\" = 11" );
+  		
+  		assert.ok( isNaN("123abc")   , "123abc No es numero" );  		
+  		assert.ok( !isNaN("123")      , "123 Es numero" );
+  		
+  		
+  		var jonWaine = new Array("Jon", "Waine", 45);
+  		
+  		assert.ok( jonWaine[0] == "Jon"   , "posicion 0 esta 'Jon' ");
+  		assert.ok( jonWaine[1] == "Waine" , "posicion 1 esta 'Waine' ");
+  		assert.ok( jonWaine[2] == 45      , "posicion 2 esta 45 ");
+  		assert.ok( jonWaine.length == 3   , "Longitud del array ==3 ");
+  		
+  		
+  	});
+  
+  
   	//Nuestro codigo de Test  	
 	QUnit.test( "entradas (dia,edad) ", function( assert ) {
 		
