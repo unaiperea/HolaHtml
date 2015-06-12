@@ -80,6 +80,7 @@
 					<li><a href="ejemplos/javascript/introduccion.jsp">introduccion</a></li>
 					<li><a href="ejemplos/javascript/objetos.jsp">Objetos JavaScript</a></li>
 					<li><a href="ejemplos/javascript/screen.jsp">Objeto Screen de JavaScript</a></li>
+					<li><a href="ejemplos/javascript/navigator.jsp">Objeto navigator de JavaScript</a></li>
 				</ul>
 			</li>		
 		
