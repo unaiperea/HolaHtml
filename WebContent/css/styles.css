@@ -36,7 +36,7 @@
 
 */
 body {
-	background: url('../img/back2.jpg');
+	background-image: url('../img/back2.jpg');
 	font-family: arial;
 }
 
@@ -462,6 +462,19 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td {
 	padding: 20px;
 	border: 1px solid #DDD;
 }
+
+.cnt_article h2{
+	color:#cf5b89;
+	font-size: 25px;
+	border-bottom:1px solid #cf5b89;
+	margin-bottom: 25px;
+}	
+
+.cnt_article ul {
+	list-style: none;
+	margin-left: 20px;
+}
+
 
 /*
 	PAGINAS

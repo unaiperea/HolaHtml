@@ -78,6 +78,7 @@
 				<h3>B&aacute;sicos</h3>
 				<ul>
 					<li><a href="ejemplos/javascript/introduccion.jsp">introduccion</a></li>
+					<li><a href="ejemplos/javascript/objetos.jsp">Objetos JavaScript</a></li>
 				</ul>
 			</li>		
 		
