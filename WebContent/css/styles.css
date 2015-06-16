@@ -423,6 +423,28 @@ form input[type="text"]:focus:required:invalid {
 	text-decoration: none;
 }
 
+/* contenedor para columnas*/
+.cnt_cols{
+	width:100%;
+	border: 1px solid #DDD; /*grisáceo*/
+}
+
+.col1, .col2{
+	float:left;
+	width: 49%; /*Si ponemos 50% al haber un borde de 1 px no cabe y saltaría de línea*/
+	min-height: 100px;
+}
+
+.col1{
+	border-right: 1px solid #DDD;
+	  padding: 5px;
+}
+
+.col2{
+	padding: 5px;
+	width: 38%; /*Restamos los 2 padding y el border*/ 
+}
+
 table.tabla_azul, .tabla_azul tr, .tabla_azul td {
 	border: 1px solid grey;
 	text-align: center;

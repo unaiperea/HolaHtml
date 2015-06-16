@@ -10,6 +10,8 @@ $(function() {
 	
 	 $('#select').filterByText($('#textbox'), false);
 
-    
+	 console.warn('tynemce dehabilitado'); //Marcar la línea con un icono. En Internet Explorer daría error
+	 //tinymce.init({selector:'textarea'});
+	 // Convertir todos los TextAreas en TinyMce
     
   });
